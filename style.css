@@ -38,7 +38,6 @@
 }
 
 .row{
-    display: flex;
     align-items: center;
     justify-content: space-between;
     background: #edeef0;
@@ -48,8 +47,8 @@
 }
 
 input{
-     display: inline-block;
-    flex: 1;
+  flex-wrap: wrap;
+/*     flex: 1; */
     border: none;
     outline: none;
     background: transparent;
@@ -58,7 +57,7 @@ input{
 }
 
 button{
-     display: inline-block;
+    flex-wrap: wrap;
     border: none;
     outline: none;
     padding: 16px 50px;
