@@ -1,4 +1,4 @@
-*{
+ *{
     margin: 0;
     padding: 0;
     font-family: 'poppins' , sans-serif;
@@ -26,6 +26,7 @@
 }
 
 .todo-app h2{
+    overflow: hidden;
     color: #002765;
     display: flex;
     align-items: center;
@@ -38,6 +39,7 @@
 }
 
 .row{
+  display: flex;
     align-items: center;
     justify-content: space-between;
     background: #edeef0;
@@ -47,8 +49,7 @@
 }
 
 input{
-  flex-wrap: wrap;
-/*     flex: 1; */
+    flex: 1;
     border: none;
     outline: none;
     background: transparent;
@@ -115,4 +116,4 @@ ul li span{
 ul li span:hover{
     background: #e20808;
     color: #fff;
-}
+} 
