@@ -38,7 +38,8 @@
 }
 
 .row{
-    display: flex;
+/*     display: flex; */
+     display: inline-block;
     align-items: center;
     justify-content: space-between;
     background: #edeef0;
