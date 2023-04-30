@@ -1,4 +1,4 @@
- *{
+  *{
     margin: 0;
     padding: 0;
     font-family: 'poppins' , sans-serif;
@@ -7,7 +7,7 @@
 
 .container{
     display: flex;
-/*     width: 100%; */
+    width: 100%;
     margin: 0;
     min-height: 100vh;
     background: linear-gradient(135deg, rgb(228, 2, 179), rgb(223, 116, 217),rgb(230, 160, 200)); 
@@ -27,7 +27,7 @@
 }
 
 .todo-app h2{
-    overflow: hidden;
+    /* overflow: hidden; */
     color: #002765;
     display: flex;
     align-items: center;
@@ -40,7 +40,11 @@
 }
 
 .row{
-  display: flex;
+    display: flex;
+
+    width: 100%;
+    float: left;
+    
     align-items: center;
     justify-content: space-between;
     background: #edeef0;
@@ -59,7 +63,7 @@ input{
 }
 
 button{
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     border: none;
     outline: none;
     padding: 16px 50px;
