@@ -42,9 +42,7 @@
 .row{
     display: flex;
 
-    width: 100%;
-    float: left;
-    
+ 
     align-items: center;
     justify-content: space-between;
     background: #edeef0;
